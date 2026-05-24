@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { changeInfo } from "../../store/slices/userSlice";
-import "./signup.css";
+import "./Signup.css";
 
 // Phone Input Imports
 import PhoneInput, {
