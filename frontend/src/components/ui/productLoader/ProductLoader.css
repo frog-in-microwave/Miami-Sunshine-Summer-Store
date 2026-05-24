@@ -1,0 +1,84 @@
+/* --- THE CORE LOADER --- */
+.vibe-loader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* Use clamp for padding so it shrinks on small screens */
+  padding: clamp(20px, 5vw, 40px);
+  background: var(--sun-gold);
+  border: 4px solid var(--dark-ink);
+  box-shadow: 10px 10px 0px var(--dark-ink);
+  
+  /* The Fix: Ensure it never exceeds the screen width */
+  width: 90%; 
+  max-width: 400px; 
+  
+  margin: 40px auto;
+  position: relative;
+  z-index: 100;
+  border-radius: 0 !important;
+  transition: all 0.4s cubic-bezier(0.19, 1, 0.22, 1);
+  opacity: 1;
+  transform: scale(1) rotate(0deg);
+}
+
+/* --- THE VIBE TEXT --- */
+.vibe-loader span {
+  /* Fluid font size: won't break the container on tiny screens */
+  font-size: clamp(0.9rem, 4vw, 1.5rem);
+  color: var(--dark-ink);
+  /* Reduced letter spacing for mobile safety */
+  letter-spacing: clamp(1px, 1vw, 4px);
+  text-align: center;
+  white-space: nowrap;
+  animation: glitch-text 1.5s infinite;
+}
+
+/* --- THE PROGRESS BAR --- */
+.loader-bar {
+  /* The Fix: Width is now responsive */
+  width: 100%;
+  max-width: 250px; 
+  height: 12px;
+  background: white;
+  border: 3px solid var(--dark-ink);
+  margin-top: 20px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0 !important;
+}
+
+.loader-bar::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: var(--sun-orange);
+  animation: loading-slide 1.2s infinite cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+/* --- ANIMATIONS --- */
+@keyframes loading-slide {
+  0% { left: -100%; }
+  50% { left: 0%; }
+  100% { left: 100%; }
+}
+
+@keyframes glitch-text {
+  0%, 100% { opacity: 1; transform: translateX(0); }
+  10% { opacity: 0.8; transform: translateX(-2px); color: var(--sun-orange); }
+  12% { opacity: 1; transform: translateX(2px); }
+  14% { transform: translateX(0); }
+  90% { opacity: 1; }
+  92% { opacity: 0.5; transform: skewX(10deg); }
+}
+
+/* Mobile Tweak for Shadow */
+@media (max-width: 600px) {
+  .vibe-loader {
+    box-shadow: 6px 6px 0px var(--dark-ink);
+  }
+}

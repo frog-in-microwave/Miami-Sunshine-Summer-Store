@@ -1,0 +1,201 @@
+/* --- RESET & ROOT --- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+:root {
+  --cream: #fdfaf5;      /* Adjust to your specific cream hex */
+  --dark-ink: #1a1a1a;   /* Deep black/gray */
+  --sun-orange: #ff7043; /* Miami Orange */
+  --sun-gold: #ffca28;   /* Hover Gold */
+  --transition: 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+/* --- MAIN NAV --- */
+.main-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90px;
+  z-index: 1000;
+  background-color: var(--cream);
+  border-bottom: 5px solid var(--dark-ink);
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 0px rgba(0,0,0,0.05);
+}
+
+.nav-container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 0; /* Important: Allows flexbox to shrink below content size */
+}
+
+/* --- LOGO (The Sticker) --- */
+.nav-logo {
+  font-size: 1.5rem;
+  color: #fff;
+  background: var(--dark-ink);
+  padding: 6px 14px;
+  border: 3px solid var(--dark-ink);
+  transform: rotate(-1deg);
+  box-shadow: 3px 3px 0px var(--sun-orange);
+  text-decoration: none;
+  white-space: nowrap;
+  flex-shrink: 0;
+  transition: all 0.2s ease;
+}
+
+.nav-logo:hover {
+  transform: rotate(0deg) scale(1.05);
+}
+
+/* --- DESKTOP LINKS --- */
+.nav-links {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.nav-links a {
+  color: var(--dark-ink);
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+  padding: 5px 10px;
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.nav-links a:hover {
+  background: var(--sun-gold);
+  transform: translateY(-2px);
+}
+
+.cart-link {
+  background: var(--sun-orange);
+  color: white !important;
+  border: 2px solid var(--dark-ink);
+  padding: 8px 20px !important;
+  box-shadow: 3px 3px 0px var(--dark-ink);
+}
+
+/* --- HAMBURGER TOGGLE --- */
+.nav-toggle {
+  display: none; /* Hidden on desktop */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+  border: 3px solid var(--dark-ink);
+  background: var(--cream);
+  box-shadow: 3px 3px 0px var(--dark-ink);
+  flex-shrink: 0;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background: var(--dark-ink);
+  transition: 0.3s;
+}
+
+/* --- RESPONSIVE BREAKPOINT (TABLET/MOBILE) --- */
+@media (max-width: 850px) {
+  .nav-toggle {
+    display: flex;
+  }
+
+  .nav-links {
+    position: fixed;
+    top: 90px;
+    left: -110%; /* Extra offset for a clean slide */
+    flex-direction: column;
+    background-color: var(--cream);
+    width: 100%;
+    height: calc(100vh - 90px);
+    gap: 20px; /* Space between the stickers */
+    padding: 40px 20px;
+    transition: 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+    border-top: 5px solid var(--dark-ink);
+    align-items: flex-start; /* Align to the left for a magazine look */
+    z-index: 999;
+  }
+
+  .nav-links.open {
+    left: 0;
+  }
+
+  .nav-links a {
+    font-size: 1.8rem; /* Scaled down from 3rem */
+    padding: 12px 25px;
+    width: auto; /* Don't force full width */
+    text-align: left;
+    background: #fff;
+    border: 3px solid var(--dark-ink);
+    box-shadow: 6px 6px 0px var(--dark-ink); /* The Sticker shadow */
+    transform: rotate(-1deg); /* Slight tilt to match the logo */
+    transition: 0.2s;
+  }
+
+  /* Alternating tilt for a more "organic" feel */
+  .nav-links a:nth-child(even) {
+    transform: rotate(1deg);
+    box-shadow: 6px 6px 0px var(--sun-orange);
+  }
+
+  .nav-links a:hover, .nav-links a:active {
+    transform: translate(3px, 3px) rotate(0deg);
+    box-shadow: 0px 0px 0px var(--dark-ink);
+    background: var(--sun-gold);
+  }
+
+  .cart-link {
+    margin-top: 20px;
+    width: 100% !important;
+    background: var(--sun-orange) !important;
+    color: white !important;
+    text-align: center !important;
+    transform: rotate(0deg) !important; /* Keep the CTA straight */
+  }
+
+  /* Hamburger animation */
+  .nav-toggle.active .bar:nth-child(1) { transform: translateY(8px) rotate(45deg); }
+  .nav-toggle.active .bar:nth-child(2) { opacity: 0; }
+  .nav-toggle.active .bar:nth-child(3) { transform: translateY(-8px) rotate(-45deg); }
+}
+/* --- ULTRA-MOBILE FIX (The 406px floor-breaker) --- */
+@media (max-width: 420px) {
+  .nav-container {
+    padding: 0 12px;
+  }
+
+  .nav-logo {
+    font-size: 0.95rem; /* Shrinking font to save horizontal space */
+    padding: 5px 10px;
+    flex-shrink: 1;       /* allow it to compress */
+    min-width: 0;
+    box-shadow: 2px 2px 0px var(--sun-orange);
+  }
+
+  .nav-toggle {
+    width: 40px;
+    height: 40px;
+    transform: scale(0.9); /* Slightly smaller button for tiny screens */
+  }
+}

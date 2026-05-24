@@ -1,0 +1,233 @@
+/* --- 0. CORE RESET & CONTAINMENT --- */
+.checkout-vibe * {
+  box-sizing: border-box;
+}
+
+.checkout-vibe {
+  padding: clamp(100px, 12vh, 160px) 15px 60px;
+  background-color: var(--cream);
+  background-image: url("https://www.transparenttextures.com/patterns/p6.png");
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  overflow-x: hidden; /* Prevents children from pushing the page wide */
+}
+
+.checkout-container {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* --- 1. RESPONSIVE BIG HEADER --- */
+.checkout-header {
+  margin-bottom: 40px;
+  border-bottom: 5px solid var(--dark-ink);
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+.checkout-header h1 {
+  font-size: clamp(2rem, 10vw, 5rem);
+  line-height: 0.95;
+  text-transform: uppercase;
+  color: var(--dark-ink);
+  word-break: break-word; 
+  overflow-wrap: break-word;
+}
+
+.outline-text {
+  -webkit-text-stroke: 1.5px var(--dark-ink);
+  color: transparent;
+}
+
+.header-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 15px;
+  font-weight: 900;
+  font-size: clamp(0.65rem, 2vw, 0.85rem);
+  gap: 10px;
+}
+
+.barcode {
+  font-family: monospace;
+  opacity: 0.5;
+  white-space: nowrap; 
+}
+
+/* --- 2. GRID & FORM BLOCKS --- */
+.checkout-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: clamp(20px, 4vw, 40px);
+  width: 100%;
+}
+
+.form-block {
+  background: white;
+  border: 4px solid var(--dark-ink);
+  padding: clamp(15px, 4vw, 30px);
+  margin-bottom: 30px;
+  box-shadow: 10px 10px 0px var(--dark-ink);
+  width: 100%;
+}
+
+.section-title {
+  background: var(--dark-ink);
+  color: white;
+  padding: 5px 12px;
+  width: fit-content;
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+}
+
+.input-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr));
+  gap: 15px;
+}
+
+.input-group label {
+  display: block;
+  font-weight: 900;
+  font-size: 0.75rem;
+  margin-bottom: 8px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 15px;
+  border: 3px solid var(--dark-ink);
+  background: var(--cream);
+  font-family: inherit;
+  font-size: 1rem;
+  border-radius: 0;
+}
+
+/* --- 3. PAYMENTS & SPACING --- */
+.payment-options {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.pay-btn {
+  width: 100%;
+  padding: 20px;
+  border: 4px solid var(--dark-ink);
+  font-weight: 900;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: 6px 6px 0px var(--dark-ink);
+  transition: 0.1s;
+}
+
+.card-btn { background: var(--dark-ink); color: white; }
+
+.pay-btn:active {
+  transform: translate(2px, 2px);
+  box-shadow: 4px 4px 0px var(--dark-ink);
+}
+
+/* --- 4. RESPONSIVE INLINE LOADER --- */
+.inline-terminal-loader {
+  padding: clamp(15px, 3vw, 25px);
+  background: var(--cream);
+  border: 3px dashed var(--dark-ink);
+  text-align: center;
+  width: 100%;
+}
+
+.loading-bar-container {
+  width: 100%;
+  height: clamp(12px, 3vw, 18px);
+  border: 3px solid var(--dark-ink);
+  background: white;
+  position: relative;
+  overflow: hidden;
+  margin: 15px 0;
+}
+
+.loading-bar-fill {
+  width: 35%;
+  height: 100%;
+  background: var(--dark-ink);
+  position: absolute;
+  animation: slide 1.2s infinite ease-in-out;
+}
+
+.pulse { 
+  animation: pulse 0.8s infinite alternate; 
+  font-size: clamp(0.8rem, 2vw, 1rem);
+}
+
+.loader-subtext { 
+  font-size: 0.65rem; 
+  opacity: 0.7; 
+  margin-top: 10px; 
+}
+
+@keyframes slide {
+  0% { left: -35%; }
+  100% { left: 110%; }
+}
+
+@keyframes pulse {
+  from { opacity: 1; }
+  to { opacity: 0.4; }
+}
+
+/* --- 5. SUMMARY SIDEBAR --- */
+.checkout-summary {
+  position: sticky;
+  top: 140px;
+  width: 100%;
+}
+
+.summary-inner {
+  background: var(--sun-gold);
+  border: 4px solid var(--dark-ink);
+  padding: 30px;
+  box-shadow: 12px 12px 0px var(--dark-ink);
+}
+
+.total-final {
+  display: flex;
+  justify-content: space-between;
+  font-size: clamp(1.4rem, 4vw, 1.8rem);
+  font-weight: 900;
+  border-top: 4px solid var(--dark-ink);
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+/* --- 6. BREAKPOINTS --- */
+@media (max-width: 950px) {
+  .checkout-grid { grid-template-columns: 1fr; }
+  .checkout-summary { position: static; order: -1; margin-bottom: 30px; }
+}
+
+@media (max-width: 600px) {
+  .checkout-vibe { padding-top: 100px; }
+  .checkout-header h1 { font-size: 13vw; }
+  
+  .header-meta {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+
+  .form-block {
+    padding: 20px;
+    box-shadow: 6px 6px 0px var(--dark-ink);
+  }
+}
+
+/* Ultra-thin screen protection */
+@media (max-width: 350px) {
+  .checkout-header h1 { font-size: 2.5rem; }
+  .pay-btn { padding: 15px; font-size: 0.8rem; }
+}

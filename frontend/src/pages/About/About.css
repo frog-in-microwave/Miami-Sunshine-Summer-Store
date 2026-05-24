@@ -1,0 +1,370 @@
+/* --- 1. GLOBAL & TEXTURES --- */
+.about-page {
+  background-color: var(--cream);
+  background-image: url("https://www.transparenttextures.com/patterns/p6.png");
+  min-height: 100vh;
+}
+
+/* --- 2. ABOUT HERO (TIGHT & CLEAN) --- */
+.about-vibe {
+  padding: 100px 20px 20px;
+  max-width: 1200px; 
+  margin: 0 auto;
+}
+
+.vibe-badge {
+  display: inline-block;
+  background: var(--dark-ink);
+  color: #fff;
+  padding: 5px 12px;
+  font-weight: 900;
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+  transform: rotate(-2deg);
+}
+
+.about-title {
+  font-size: clamp(3rem, 9vw, 6rem);
+  line-height: 0.8;
+  color: var(--dark-ink);
+  margin-bottom: 25px;
+  letter-spacing: -3px;
+  text-transform: uppercase;
+}
+
+.about-content {
+  display: flex;
+  gap: 30px;
+  align-items: center; 
+}
+
+.about-photo-stack {
+  width: 300px; 
+  height: 300px; 
+  flex-shrink: 0;
+  border: 4px solid var(--dark-ink);
+  box-shadow: 10px 10px 0px var(--sun-gold);
+  transform: rotate(-2deg);
+  background: white;
+  overflow: hidden;
+}
+
+.about-photo-stack img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.vibe-text {
+  font-size: 1.15rem; 
+  line-height: 1.3;
+  font-weight: 800;
+  color: var(--dark-ink);
+  max-width: 500px;
+}
+
+/* --- 3. MANIFESTO (VIBE CHECK) --- */
+.vibe-check-section {
+  padding: 30px 20px;
+  background: var(--cream);
+}
+
+.vibe-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.ticker-text {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  color: var(--dark-ink);
+  background: var(--sun-gold);
+  display: inline-block;
+  padding: 5px 12px;
+  transform: rotate(-1deg);
+  margin-bottom: 15px;
+}
+
+.heavy-talk {
+  font-size: 1rem;
+  font-weight: 800;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+/* --- 4. MINI CARDS --- */
+.vibe-cards-stack {
+  display: flex;
+  gap: 15px;
+}
+
+.vibe-mini-card {
+  width: 160px;
+  background: #fff;
+  border: 3px solid var(--dark-ink);
+  padding: 12px;
+  box-shadow: 6px 6px 0px var(--dark-ink);
+}
+
+.c1 { transform: rotate(-2deg); }
+.c2 { transform: rotate(2deg); background: var(--sun-orange); color: white; }
+
+.vibe-mini-card h3 { font-size: 0.9rem; margin: 5px 0; }
+.vibe-mini-card p { font-size: 0.75rem; font-weight: 700; }
+
+/* --- 5. CONTACT SECTION (ALIGNMENT FIXED) --- */
+.contact-section {
+  background: var(--sky-blue);
+  border: 5px solid var(--dark-ink);
+  padding: 40px;
+  margin: 60px auto;
+  max-width: 800px;
+  position: relative;
+  box-shadow: 12px 12px 0px var(--dark-ink);
+}
+
+.contact-section::before {
+  content: "SAY HELLO";
+  position: absolute;
+  top: -12px;
+  left: 10px;
+  background: var(--sun-orange);
+  color: white;
+  padding: 6px 15px;
+  border: 3px solid var(--dark-ink);
+  font-weight: 900;
+  transform: rotate(-3deg);
+  z-index: 10;
+}
+
+.contact-header {
+  margin-bottom: 25px;
+  border-bottom: 3px solid var(--dark-ink);
+  padding-bottom: 10px;
+}
+
+.contact-header h2 {
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  text-transform: uppercase;
+  color: var(--dark-ink);
+  line-height: 0.8;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: end; /* Ensures inputs align on the same bottom line */
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group label {
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 11px;
+  margin-bottom: 8px; /* The requested space between label and input */
+  letter-spacing: 1px;
+}
+
+.input-group input, 
+.input-group textarea {
+  width: 100%;
+  padding: 12px;
+  border: 3px solid var(--dark-ink);
+  background: #ffffff;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 0.95rem;
+  box-shadow: 4px 4px 0px var(--dark-ink);
+  transition: 0.2s ease;
+}
+
+.input-group input:focus, 
+.input-group textarea:focus {
+  outline: none;
+  background: var(--cream);
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0px var(--sun-gold);
+}
+
+.contact-btn {
+  background: var(--dark-ink);
+  color: #ffffff;
+  padding: 16px;
+  border: 3px solid var(--dark-ink);
+  font-size: 1.1rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.2s;
+  margin-top: 5px;
+  box-shadow: 5px 5px 0px var(--sun-gold);
+}
+
+.contact-btn:hover {
+  background: var(--sun-orange);
+  transform: translate(-3px, -3px);
+  box-shadow: 8px 8px 0px var(--dark-ink);
+}
+
+/* --- CONTACT SECTION LOADER INTEGRATION --- */
+
+.inline-terminal-loader {
+  padding: clamp(15px, 4vw, 30px);
+  background: var(--cream);
+  border: 3px dashed var(--dark-ink);
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 10px;
+  overflow: hidden; /* Prevents text push-out */
+}
+
+.loading-bar-container {
+  width: 100%;
+  height: 18px;
+  border: 3px solid var(--dark-ink);
+  background: white;
+  position: relative;
+  overflow: hidden;
+  margin: 15px 0;
+  box-sizing: border-box;
+}
+
+.loading-bar-fill {
+  width: 35%;
+  height: 100%;
+  background: var(--dark-ink);
+  position: absolute;
+  animation: slide 1.2s infinite ease-in-out;
+}
+
+.pulse {
+  animation: pulse 0.8s infinite alternate;
+  font-size: clamp(0.75rem, 2.5vw, 0.9rem);
+  font-weight: 900;
+  color: var(--dark-ink);
+  margin: 0;
+  /* ANTI-CREEP FIXES */
+  word-break: break-word;
+  overflow-wrap: anywhere;
+  display: block;
+}
+
+.loader-subtext {
+  font-size: clamp(0.6rem, 2vw, 0.75rem);
+  opacity: 0.7;
+  margin-top: 8px;
+  color: var(--dark-ink);
+  text-transform: uppercase;
+  /* ANTI-CREEP FIXES */
+  word-break: break-word;
+  overflow-wrap: anywhere;
+  display: block;
+}
+
+/* --- LOADER ANIMATIONS --- */
+@keyframes slide {
+  0% { left: -40%; }
+  100% { left: 110%; }
+}
+
+@keyframes pulse {
+  from { opacity: 1; }
+  to { opacity: 0.4; }
+}
+
+
+
+
+/* --- SUCCESS STATE STYLING --- */
+.inline-terminal-loader.success-vibe {
+  border-style: solid; /* Solid border instead of dashed for success */
+  border-color: var(--dark-ink);
+  background: var(--sun-orange); /* Miami Orange background for success */
+}
+
+.inline-terminal-loader.success-vibe p {
+  color: white !important;
+  margin: 0;
+}
+
+.inline-terminal-loader.success-vibe .loader-subtext {
+  color: white !important;
+  opacity: 0.9;
+  font-size: 0.7rem;
+  margin-top: 5px;
+}
+
+/* Ensure the loader fits the button space exactly */
+.inline-terminal-loader {
+  min-height: 80px; /* Prevents layout jump when switching from button to loader */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+/* --- MOBILE TWEAKS FOR CONTACT BUTTON/LOADER --- */
+@media (max-width: 480px) {
+  .pulse, .loader-subtext {
+    letter-spacing: 0px; /* Tighten for tiny screens */
+  }
+}
+
+/* --- 6. MOBILE RE-DESIGN --- */
+@media (max-width: 850px) {
+  .about-vibe { padding-top: 100px; }
+  
+  .about-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .about-photo-stack {
+    width: 200px; /* Compact image for phone */
+    height: 200px;
+    box-shadow: 8px 8px 0px var(--sun-gold);
+  }
+
+  .vibe-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .vibe-cards-stack {
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .vibe-mini-card { width: 130px; }
+  .about-title { font-size: 2.8rem; }
+}
+
+@media (max-width: 600px) {
+  .form-row {
+    grid-template-columns: 1fr; /* Stack vertically on small phones */
+    gap: 20px;
+  }
+  .contact-section { width: 92%; padding: 30px 15px; }
+}

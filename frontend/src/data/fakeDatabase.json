@@ -1,0 +1,1508 @@
+[
+  {
+    "id": 1,
+    "name": "NEON VIBE TEE",
+    "description": "Heavyweight 240GSM cotton. Designed to survive the humidity of a Miami night.",
+    "price": 45.0,
+    "category": "Apparel",
+    "salePercentage": 15,
+    "status": "SALE",
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1523381210434-271e8be1f52b?auto=format&fit=crop&w=800&q=80"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Miami Heritage Tee",
+    "description": "Heavyweight cotton featuring the 2026 logo.",
+    "price": 45.0,
+    "category": "Apparel",
+    "salePercentage": 15,
+    "status": "SALE",
+    "image": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=800&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1523381210434-271e8be1f52b?auto=format&fit=crop&w=800&q=80"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "SOUTH BEACH SHADES",
+    "description": "Polarized lenses with a sunset tint. Hard-shell case included.",
+    "price": 120.0,
+    "category": "Accessories",
+    "salePercentage": 0,
+    "status": "NEW",
+    "image": "https://images.unsplash.com/photo-1511499767350-a1511f02f03d?auto=format&fit=crop&w=800&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1572635196237-14b3f281503f?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "BOARDWALK BUCKET",
+    "description": "Reversible bucket hat with breathable mesh. Sunset orange vibes.",
+    "price": 28.0,
+    "category": "Headwear",
+    "salePercentage": 5,
+    "status": "SALE",
+    "image": "https://images.unsplash.com/photo-1582142306909-195724d33ffc?auto=format&fit=crop&w=800&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1534215754734-18e55d13e346?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1521335629791-ce4aec67dd15?auto=format&fit=crop&w=800&q=80"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "OCEAN DRIVE RUNNER",
+    "description": "Lightweight mesh trainers with glow-in-the-dark accents.",
+    "price": 110.0,
+    "category": "Footwear",
+    "salePercentage": 0,
+    "status": "NEW",
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1560769629-975ec94e6a86?auto=format&fit=crop&w=800&q=80"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "VICE CITY HOODIE",
+    "description": "Pastel lavender oversized hoodie with high-density puff print.",
+    "price": 75.0,
+    "category": "Apparel",
+    "salePercentage": 10,
+    "status": "SALE",
+    "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=800&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1523381210434-271e8be1f52b?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&q=80"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "CORAL GABLES TOTE",
+    "description": "Heavy-duty canvas tote with reinforced handles. Fits two towels.",
+    "price": 40.0,
+    "category": "Accessories",
+    "salePercentage": 0,
+    "status": "HOT",
+    "image": "https://images.unsplash.com/photo-1544816153-12ad5d713bc6?auto=format&fit=crop&w=800&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1591561954557-26941169b49e?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "ART DECO SNAPBACK",
+    "description": "Geometric embroidery inspired by Miami skyline architecture.",
+    "price": 32.0,
+    "category": "Headwear",
+    "salePercentage": 0,
+    "status": "NEW",
+    "image": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?auto=format&fit=crop&w=800&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1521335629791-ce4aec67dd15?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1534215754734-18e55d13e346?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1582142306909-195724d33ffc?auto=format&fit=crop&w=800&q=80"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "LITTLE HAVANA SLIDES",
+    "description": "Contoured footbed for maximum comfort. Sand-resistant.",
+    "price": 55.0,
+    "category": "Footwear",
+    "salePercentage": 20,
+    "status": "SALE",
+    "image": "https://images.unsplash.com/photo-1603487742131-4160ec999306?auto=format&fit=crop&w=800&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1596702994230-a8a07f7b0453?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1562273103-912067decb69?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1596702994230-a8a07f7b0453?auto=format&fit=crop&w=800&q=80"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "SUNSET STRIP TEE",
+    "description": "Screen-printed graphic tee featuring the 305 golden hour.",
+    "price": 42.0,
+    "category": "Apparel",
+    "salePercentage": 0,
+    "status": "NEW",
+    "image": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=800&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1523381210434-271e8be1f52b?auto=format&fit=crop&w=800&q=80"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "PALM BREEZE WATCH",
+    "description": "Minimalist face with a silicone strap. Water resistant.",
+    "price": 145.0,
+    "category": "Accessories",
+    "salePercentage": 0,
+    "status": "HOT",
+    "image": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=800",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=800",
+      "https://images.unsplash.com/photo-1508057198894-247b23fe5ade?w=800",
+      "https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=800"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "MIAMI MARLIN JERSEY",
+    "description": "Pinstriped button-up with teal and pink accents. Retro sports.",
+    "price": 85.0,
+    "category": "Apparel",
+    "salePercentage": 0,
+    "status": "NEW",
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800",
+      "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?w=800",
+      "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=800"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "WYNWOOD WALLS WALLET",
+    "description": "Slim leather wallet with graffiti-style interior lining.",
+    "price": 35.0,
+    "category": "Accessories",
+    "salePercentage": 0,
+    "status": "NEW",
+    "image": "https://images.unsplash.com/photo-1627123437335-4c0a8e6f89c8?w=800",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1627123437335-4c0a8e6f89c8?w=800",
+      "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=800",
+      "https://images.unsplash.com/photo-1601597111158-2fceff292cdc?w=800"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "FLAMINGO PINK BEANIE",
+    "description": "Ribbed knit beanie in signature flamingo pink.",
+    "price": 24.0,
+    "category": "Headwear",
+    "salePercentage": 0,
+    "status": "NEW",
+    "image": "https://images.unsplash.com/photo-1543076447-215ad9ba6923?w=800",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1543076447-215ad9ba6923?w=800",
+      "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=800",
+      "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=800"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "BEACH CLUB SANDALS",
+    "description": "Leather straps with cork sole. Perfect for pool parties.",
+    "price": 65.0,
+    "category": "Footwear",
+    "salePercentage": 10,
+    "status": "SALE",
+    "image": "https://images.unsplash.com/photo-1603487742131-4160ec999306?w=800",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1603487742131-4160ec999306?w=800",
+      "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=800",
+      "https://images.unsplash.com/photo-1582582621959-48d27397dc69?w=800"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "TROPICAL PALM SHIRT",
+    "description": "Rayon blend camp collar shirt with palm leaf print.",
+    "price": 58.0,
+    "category": "Apparel",
+    "salePercentage": 0,
+    "status": "HOT",
+    "image": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=800",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=800",
+      "https://images.unsplash.com/photo-1520975922284-9e0ce827c9f5?w=800",
+      "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=800"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "MAGIC CITY DUFFEL",
+    "description": "Waterproof gym bag with separate shoe compartment.",
+    "price": 95.0,
+    "category": "Accessories",
+    "salePercentage": 0,
+    "status": "NEW",
+    "image": "https://images.unsplash.com/photo-1547949003-9792a18a2601?w=800",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1547949003-9792a18a2601?w=800",
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800",
+      "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=800"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "NEON SUN VISOR",
+    "description": "Transparent visor for that 80s Miami aesthetic.",
+    "price": 20.0,
+    "category": "Headwear",
+    "salePercentage": 30,
+    "status": "SALE",
+    "image": "https://images.unsplash.com/photo-1521335629791-ce4aec67dd53?w=800",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1521335629791-ce4aec67dd53?w=800",
+      "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?w=800",
+      "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=800"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "DOWNTOWN DERBIES",
+    "description": "Suede derbies in a soft sand color.",
+    "price": 135.0,
+    "category": "Footwear",
+    "salePercentage": 0,
+    "status": "NEW",
+    "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=800",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=800",
+      "https://images.unsplash.com/photo-1528701800489-20be3c0a3e1b?w=800",
+      "https://images.unsplash.com/photo-1519741497674-611481863552?w=800"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "BRICKELL BLAZER",
+    "description": "Unstructured linen blazer in white.",
+    "price": 180.0,
+    "category": "Apparel",
+    "salePercentage": 0,
+    "status": "NEW",
+    "image": "https://images.unsplash.com/photo-1593030761757-71fae45fa0e7?w=800",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1593030761757-71fae45fa0e7?w=800",
+      "https://images.unsplash.com/photo-1520975916090-3105956dac38?w=800",
+      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=800"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "SOUTH BEACH BACKPACK",
+    "description": "Roll-top backpack with reflective strips.",
+    "price": 88.0,
+    "category": "Accessories",
+    "salePercentage": 0,
+    "status": "NEW",
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800",
+      "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=800",
+      "https://images.unsplash.com/photo-1547949003-9792a18a2601?w=800"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "RETRO TRUCKER HAT",
+    "description": "Foam front trucker with Miami patch.",
+    "price": 26.0,
+    "category": "Headwear",
+    "salePercentage": 0,
+    "status": "NEW",
+    "image": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=800",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=800",
+      "https://images.unsplash.com/photo-1534215754734-18e55d13e346?w=800",
+      "https://images.unsplash.com/photo-1521335629791-ce4aec67dd53?w=800"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "POOL SIDE KICKS",
+    "description": "Slip-ons from recycled ocean plastics.",
+    "price": 48.0,
+    "category": "Footwear",
+    "salePercentage": 15,
+    "status": "SALE",
+    "image": "https://images.unsplash.com/photo-1603487742131-4160ec999306?w=800",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1603487742131-4160ec999306?w=800",
+      "https://images.unsplash.com/photo-1582582621959-48d27397dc69?w=800",
+      "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=800"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "KEY LARGO CARGOS",
+    "description": "Relaxed fit cargo pants.",
+    "price": 72.0,
+    "category": "Apparel",
+    "salePercentage": 0,
+    "status": "NEW",
+    "image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=800",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=800",
+      "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=800",
+      "https://images.unsplash.com/photo-1473963441133-fb08643906f0?w=800"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "MIDTOWN MESSENGER",
+    "description": "Cross-body bag with chrome buckles.",
+    "price": 65.0,
+    "category": "Accessories",
+    "salePercentage": 0,
+    "status": "NEW",
+    "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=800",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=800",
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800",
+      "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=800"
+    ]
+  },
+
+  {
+    "id": 26,
+    "name": "PELICAN PEAK CAP",
+    "description": "Classic dad hat.",
+    "price": 30.0,
+    "category": "Headwear",
+    "salePercentage": 0,
+    "status": "HOT",
+    "image": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=800",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=800",
+      "https://images.unsplash.com/photo-1521335629791-ce4aec67dd53?w=800",
+      "https://images.unsplash.com/photo-1534215754734-18e55d13e346?w=800"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "NEON HARBOR TRUNKS",
+    "description": "Quick-dry swim trunks.",
+    "price": 52.0,
+    "category": "Apparel",
+    "salePercentage": 0,
+    "status": "NEW",
+    "image": "https://images.unsplash.com/photo-1590601394136-1e0e844b6009?w=800",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1590601394136-1e0e844b6009?w=800",
+      "https://images.unsplash.com/photo-1551817311-d7734036bc64?w=800",
+      "https://images.unsplash.com/photo-1520975922284-9e0ce827c9f5?w=800"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "SUNSET BOULEVARD SLIDES",
+    "description": "Ergonomic slides.",
+    "price": 44.0,
+    "category": "Footwear",
+    "salePercentage": 10,
+    "status": "SALE",
+    "image": "https://images.unsplash.com/photo-1596702994230-a8a07f7b0453?w=800",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1596702994230-a8a07f7b0453?w=800",
+      "https://images.unsplash.com/photo-1603487742131-4160ec999306?w=800",
+      "https://images.unsplash.com/photo-1562273103-912067decb69?w=800"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "TURQUOISE TIDE TANK",
+    "description": "Vintage gym tank.",
+    "price": 34.0,
+    "category": "Apparel",
+    "salePercentage": 0,
+    "status": "NEW",
+    "image": "https://images.unsplash.com/photo-1503342392335-3004b37041fa?w=800",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1503342392335-3004b37041fa?w=800",
+      "https://images.unsplash.com/photo-1520975922284-9e0ce827c9f5?w=800",
+      "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=800"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "MIAMI METRO CARD HOLDER",
+    "description": "Slim vegan leather wallet.",
+    "price": 28.0,
+    "category": "Accessories",
+    "salePercentage": 0,
+    "status": "HOT",
+    "image": "https://images.unsplash.com/photo-1627123437335-4c0a8e6f89c8?w=800",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1627123437335-4c0a8e6f89c8?w=800",
+      "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=800",
+      "https://images.unsplash.com/photo-1601597111158-2fceff292cdc?w=800"
+    ]
+  },
+
+  {
+    "id": 31,
+    "name": "BOUGAINVILLEA BUCKET",
+    "description": "Floral bucket hat.",
+    "price": 32.0,
+    "category": "Headwear",
+    "salePercentage": 0,
+    "status": "NEW",
+    "image": "https://images.unsplash.com/photo-1582142306909-195724d33ffc?w=800",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1582142306909-195724d33ffc?w=800",
+      "https://images.unsplash.com/photo-1521335629791-ce4aec67dd53?w=800",
+      "https://images.unsplash.com/photo-1534215754734-18e55d13e346?w=800"
+    ]
+  },
+  {
+    "id": 32,
+    "name": "LAVENDER LAGOON SHORTS",
+    "description": "Mid-thigh sweatshorts.",
+    "price": 48.0,
+    "category": "Apparel",
+    "salePercentage": 20,
+    "status": "SALE",
+    "image": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=800",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=800",
+      "https://images.unsplash.com/photo-1560243563-062bff001d68?w=800",
+      "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=800"
+    ]
+  },
+  {
+    "id": 33,
+    "name": "CORAL CLIFF SNEAKERS",
+    "description": "Canvas sneakers.",
+    "price": 125.0,
+    "category": "Footwear",
+    "salePercentage": 0,
+    "status": "NEW",
+    "image": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=800",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=800",
+      "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?w=800",
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800"
+    ]
+  },
+  {
+    "id": 34,
+    "name": "GABLES GOLF POLO",
+    "description": "Moisture-wicking polo.",
+    "price": 62.0,
+    "category": "Apparel",
+    "salePercentage": 0,
+    "status": "NEW",
+    "image": "https://images.unsplash.com/photo-1581655353564-df123a1eb820?w=800",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1581655353564-df123a1eb820?w=800",
+      "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=800",
+      "https://images.unsplash.com/photo-1520975922284-9e0ce827c9f5?w=800"
+    ]
+  },
+  {
+    "id": 35,
+    "name": "LUMMUS PARK FANNY PACK",
+    "description": "Dual compartment pack.",
+    "price": 38.0,
+    "category": "Accessories",
+    "salePercentage": 5,
+    "status": "SALE",
+    "image": "https://images.unsplash.com/photo-1591561954557-26941169b49e?w=800",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1591561954557-26941169b49e?w=800",
+      "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=800",
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800"
+    ]
+  },
+
+  {
+    "id": 36,
+    "name": "COCONUT GROVE 5-PANEL",
+    "description": "Flat brim cap.",
+    "price": 28.0,
+    "category": "Headwear",
+    "salePercentage": 0,
+    "status": "NEW",
+    "image": "https://images.unsplash.com/photo-1534215754734-18e55d13e346?w=800",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1534215754734-18e55d13e346?w=800",
+      "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=800",
+      "https://images.unsplash.com/photo-1521335629791-ce4aec67dd53?w=800"
+    ]
+  },
+  {
+    "id": 37,
+    "name": "SANDY POINT CARGOS",
+    "description": "Ripstop cargo pants.",
+    "price": 85.0,
+    "category": "Apparel",
+    "salePercentage": 0,
+    "status": "HOT",
+    "image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=800",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=800",
+      "https://images.unsplash.com/photo-1473963441133-fb08643906f0?w=800",
+      "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=800"
+    ]
+  },
+  {
+    "id": 38,
+    "name": "VICE STRIPE SOCKS",
+    "description": "Crew socks.",
+    "price": 18.0,
+    "category": "Accessories",
+    "salePercentage": 0,
+    "status": "NEW",
+    "image": "https://images.unsplash.com/photo-1586350977771-b3b0abd50c82?w=800",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1586350977771-b3b0abd50c82?w=800",
+      "https://images.unsplash.com/photo-1523381210434-271e8be1f52b?w=800",
+      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=800"
+    ]
+  },
+  {
+    "id": 39,
+    "name": "LINEN HARBOR SHIRT",
+    "description": "100% linen shirt.",
+    "price": 68.0,
+    "category": "Apparel",
+    "salePercentage": 10,
+    "status": "SALE",
+    "image": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=800",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=800",
+      "https://images.unsplash.com/photo-1578932750294-f5075e85f44a?w=800",
+      "https://images.unsplash.com/photo-1520975922284-9e0ce827c9f5?w=800"
+    ]
+  },
+  {
+    "id": 40,
+    "name": "DUSK DOCK SIDES",
+    "description": "Classic boat shoes.",
+    "price": 95.0,
+    "category": "Footwear",
+    "salePercentage": 0,
+    "status": "HOT",
+    "image": "https://images.unsplash.com/photo-1531310197839-ccf54634509e?w=800",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1531310197839-ccf54634509e?w=800",
+      "https://images.unsplash.com/photo-1528701800489-20be3c0a3e1b?w=800",
+      "https://images.unsplash.com/photo-1519741497674-611481863552?w=800"
+    ]
+  },
+  {
+    "id": 41,
+    "name": "MANGO MARGARITA TEE",
+    "description": "Faded yellow vintage-style tee.",
+    "price": 38.0,
+    "category": "Apparel",
+    "salePercentage": 0,
+    "status": "NEW",
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800",
+      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=800",
+      "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=800"
+    ]
+  },
+  {
+    "id": 42,
+    "name": "CLEAR WATER BOTTLE",
+    "description": "Double-walled insulated bottle.",
+    "price": 30.0,
+    "category": "Accessories",
+    "salePercentage": 0,
+    "status": "NEW",
+    "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=800",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=800",
+      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800",
+      "https://images.unsplash.com/photo-1526401485004-2fda9f6b0d1b?w=800"
+    ]
+  },
+  {
+    "id": 43,
+    "name": "PALMETTO POCKET TEE",
+    "description": "Premium cotton tee with patterned pocket.",
+    "price": 40.0,
+    "category": "Apparel",
+    "salePercentage": 0,
+    "status": "HOT",
+    "image": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=800",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=800",
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800",
+      "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=800"
+    ]
+  },
+  {
+    "id": 44,
+    "name": "SOBE SUNGLASSES STRAP",
+    "description": "Neoprene strap for sunglasses.",
+    "price": 15.0,
+    "category": "Accessories",
+    "salePercentage": 0,
+    "status": "NEW",
+    "image": "https://images.unsplash.com/photo-1511499767350-a1511f02f03d?w=800",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1511499767350-a1511f02f03d?w=800",
+      "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=800",
+      "https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?w=800"
+    ]
+  },
+  {
+    "id": 45,
+    "name": "ART DISTRICT BEANIE",
+    "description": "Lightweight cotton beanie.",
+    "price": 24.0,
+    "category": "Headwear",
+    "salePercentage": 15,
+    "status": "SALE",
+    "image": "https://images.unsplash.com/photo-1543076447-215ad9ba6923?w=800",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1543076447-215ad9ba6923?w=800",
+      "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=800",
+      "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=800"
+    ]
+  },
+
+  {
+    "id": 46,
+    "name": "NEON NIGHTS WINDBREAKER",
+    "description": "Reflective windbreaker with hood.",
+    "price": 95.0,
+    "category": "Apparel",
+    "salePercentage": 0,
+    "status": "NEW",
+    "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=800",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=800",
+      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=800",
+      "https://images.unsplash.com/photo-1495121605193-b116b5b9c5fe?w=800"
+    ]
+  },
+  {
+    "id": 47,
+    "name": "CRUISER BOARD SLIP-ONS",
+    "description": "Checkerboard slip-ons.",
+    "price": 60.0,
+    "category": "Footwear",
+    "salePercentage": 0,
+    "status": "HOT",
+    "image": "https://images.unsplash.com/photo-1603487742131-4160ec999306?w=800",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1603487742131-4160ec999306?w=800",
+      "https://images.unsplash.com/photo-1582582621959-48d27397dc69?w=800",
+      "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=800"
+    ]
+  },
+  {
+    "id": 48,
+    "name": "KEY BISCAYNE POLO",
+    "description": "Relaxed fit polo shirt.",
+    "price": 55.0,
+    "category": "Apparel",
+    "salePercentage": 0,
+    "status": "NEW",
+    "image": "https://images.unsplash.com/photo-1581655353564-df123a1eb820?w=800",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1581655353564-df123a1eb820?w=800",
+      "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=800",
+      "https://images.unsplash.com/photo-1520975922284-9e0ce827c9f5?w=800"
+    ]
+  },
+  {
+    "id": 49,
+    "name": "AVENTURA BACKPACK",
+    "description": "Laptop-ready backpack.",
+    "price": 110.0,
+    "category": "Accessories",
+    "salePercentage": 0,
+    "status": "NEW",
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800",
+      "https://images.unsplash.com/photo-1547949003-9792a18a2601?w=800",
+      "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=800"
+    ]
+  },
+  {
+    "id": 50,
+    "name": "SUNSET YACHT CAP",
+    "description": "Navy cap with gold embroidery.",
+    "price": 35.0,
+    "category": "Headwear",
+    "salePercentage": 0,
+    "status": "HOT",
+    "image": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=800",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=800",
+      "https://images.unsplash.com/photo-1534215754734-18e55d13e346?w=800",
+      "https://images.unsplash.com/photo-1521335629791-ce4aec67dd53?w=800"
+    ]
+  },
+
+  {
+    "id": 51,
+    "name": "COCOWALK CHINOS",
+    "description": "Slim-fit stretch chinos.",
+    "price": 78.0,
+    "category": "Apparel",
+    "salePercentage": 10,
+    "status": "SALE",
+    "image": "https://images.unsplash.com/photo-1473963441133-fb08643906f0?w=800",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1473963441133-fb08643906f0?w=800",
+      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=800",
+      "https://images.unsplash.com/photo-1491336477066-31156b5e4f35?w=800"
+    ]
+  },
+  {
+    "id": 52,
+    "name": "WYNWOOD MESH JERSEY",
+    "description": "Breathable jersey.",
+    "price": 65.0,
+    "category": "Apparel",
+    "salePercentage": 0,
+    "status": "NEW",
+    "image": "https://images.unsplash.com/photo-1516062423079-7ca13cdc7f5a?w=800",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1516062423079-7ca13cdc7f5a?w=800",
+      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=800",
+      "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=800"
+    ]
+  },
+  {
+    "id": 53,
+    "name": "OCHO LOW-TOPS",
+    "description": "Clean white sneakers.",
+    "price": 115.0,
+    "category": "Footwear",
+    "salePercentage": 0,
+    "status": "HOT",
+    "image": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=800",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=800",
+      "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?w=800",
+      "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=800"
+    ]
+  },
+  {
+    "id": 54,
+    "name": "EVERGLADES UTILITY VEST",
+    "description": "Multi-pocket vest.",
+    "price": 85.0,
+    "category": "Apparel",
+    "salePercentage": 0,
+    "status": "NEW",
+    "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=800",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=800",
+      "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=800",
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800"
+    ]
+  },
+  {
+    "id": 55,
+    "name": "MANSION PARTY MULES",
+    "description": "Velvet slip-ons.",
+    "price": 140.0,
+    "category": "Footwear",
+    "salePercentage": 0,
+    "status": "NEW",
+    "image": "https://images.unsplash.com/photo-1531310197839-ccf54634509e?w=800",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1531310197839-ccf54634509e?w=800",
+      "https://images.unsplash.com/photo-1614252235316-8c8079fe11b1?w=800",
+      "https://images.unsplash.com/photo-1528701800489-20be3c0a3e1b?w=800"
+    ]
+  },
+
+  {
+    "id": 56,
+    "name": "NEON PALM SOCKS",
+    "description": "Performance socks.",
+    "price": 16.0,
+    "category": "Accessories",
+    "salePercentage": 0,
+    "status": "HOT",
+    "image": "https://images.unsplash.com/photo-1586350977771-b3b0abd50c82?w=800",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1586350977771-b3b0abd50c82?w=800",
+      "https://images.unsplash.com/photo-1523381210434-271e8be1f52b?w=800",
+      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=800"
+    ]
+  },
+  {
+    "id": 57,
+    "name": "LITTLE HAVANA FEDORA",
+    "description": "Straw fedora.",
+    "price": 45.0,
+    "category": "Headwear",
+    "salePercentage": 25,
+    "status": "SALE",
+    "image": "https://images.unsplash.com/photo-1534215754734-18e55d13e346?w=800",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1534215754734-18e55d13e346?w=800",
+      "https://images.unsplash.com/photo-1582142306909-195724d33ffc?w=800",
+      "https://images.unsplash.com/photo-1521335629791-ce4aec67dd53?w=800"
+    ]
+  },
+  {
+    "id": 58,
+    "name": "MARINA LINEN SHORTS",
+    "description": "Lightweight linen shorts.",
+    "price": 55.0,
+    "category": "Apparel",
+    "salePercentage": 0,
+    "status": "NEW",
+    "image": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=800",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=800",
+      "https://images.unsplash.com/photo-1560243563-062bff001d68?w=800",
+      "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=800"
+    ]
+  },
+  {
+    "id": 59,
+    "name": "STAR ISLAND SHADES",
+    "description": "Oversized sunglasses.",
+    "price": 165.0,
+    "category": "Accessories",
+    "salePercentage": 0,
+    "status": "HOT",
+    "image": "https://images.unsplash.com/photo-1511499767350-a1511f02f03d?w=800",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1511499767350-a1511f02f03d?w=800",
+      "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=800",
+      "https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?w=800"
+    ]
+  },
+  {
+    "id": 60,
+    "name": "ATLANTIC BOARDSHORTS",
+    "description": "4-way stretch boardshorts.",
+    "price": 58.0,
+    "category": "Apparel",
+    "salePercentage": 15,
+    "status": "SALE",
+    "image": "https://images.unsplash.com/photo-1590601394136-1e0e844b6009?w=800",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1590601394136-1e0e844b6009?w=800",
+      "https://images.unsplash.com/photo-1551817311-d7734036bc64?w=800",
+      "https://images.unsplash.com/photo-1520975922284-9e0ce827c9f5?w=800"
+    ]
+  },
+  {
+    "id": 61,
+    "name": "CRUISE SHIP CARDIGAN",
+    "description": "Lightweight open-knit cardigan for breezy ocean deck nights.",
+    "price": 85.0,
+    "category": "Apparel",
+    "salePercentage": 0,
+    "status": "NEW",
+    "image": "https://source.unsplash.com/800x800/?cardigan",
+    "galleryImages": [
+      "https://source.unsplash.com/800x800/?knit,cardigan",
+      "https://source.unsplash.com/800x800/?fashion,cardigan",
+      "https://source.unsplash.com/800x800/?casual,cardigan"
+    ]
+  },
+  {
+    "id": 62,
+    "name": "MANGROVE MESSENGER",
+    "description": "Durable nylon bag with waterproof zippers.",
+    "price": 75.0,
+    "category": "Accessories",
+    "salePercentage": 0,
+    "status": "HOT",
+    "image": "https://source.unsplash.com/800x800/?messenger,bag",
+    "galleryImages": [
+      "https://source.unsplash.com/800x800/?crossbody,bag",
+      "https://source.unsplash.com/800x800/?urban,bag",
+      "https://source.unsplash.com/800x800/?travel,bag"
+    ]
+  },
+  {
+    "id": 63,
+    "name": "CORAL COURT KICKS",
+    "description": "Classic court silhouette in a pastel coral colorway.",
+    "price": 95.0,
+    "category": "Footwear",
+    "salePercentage": 0,
+    "status": "NEW",
+    "image": "https://source.unsplash.com/800x800/?sneakers",
+    "galleryImages": [
+      "https://source.unsplash.com/800x800/?court,sneakers",
+      "https://source.unsplash.com/800x800/?fashion,sneakers",
+      "https://source.unsplash.com/800x800/?white,sneakers"
+    ]
+  },
+  {
+    "id": 64,
+    "name": "SURF SIDE DAD HAT",
+    "description": "Washer-safe cotton with an embroidered surfboard.",
+    "price": 25.0,
+    "category": "Headwear",
+    "salePercentage": 0,
+    "status": "NEW",
+    "image": "https://source.unsplash.com/800x800/?dadhat",
+    "galleryImages": [
+      "https://source.unsplash.com/800x800/?cap,casual",
+      "https://source.unsplash.com/800x800/?streetwear,cap",
+      "https://source.unsplash.com/800x800/?hat,summer"
+    ]
+  },
+  {
+    "id": 65,
+    "name": "BREEZEWAY BUTTON-DOWN",
+    "description": "Ultra-lightweight cotton with a micro-palm print.",
+    "price": 60.0,
+    "category": "Apparel",
+    "salePercentage": 20,
+    "status": "SALE",
+    "image": "https://source.unsplash.com/800x800/?buttondown,shirt",
+    "galleryImages": [
+      "https://source.unsplash.com/800x800/?summer,shirt",
+      "https://source.unsplash.com/800x800/?casual,shirt",
+      "https://source.unsplash.com/800x800/?linen,shirt"
+    ]
+  },
+  {
+    "id": 66,
+    "name": "POOLSIDE POLO",
+    "description": "Terry cloth polo shirt. Absorbs water and looks sharp.",
+    "price": 65.0,
+    "category": "Apparel",
+    "salePercentage": 0,
+    "status": "NEW",
+    "image": "https://source.unsplash.com/800x800/?polo",
+    "galleryImages": [
+      "https://source.unsplash.com/800x800/?mens,polo",
+      "https://source.unsplash.com/800x800/?fashion,polo",
+      "https://source.unsplash.com/800x800/?casual,polo"
+    ]
+  },
+  {
+    "id": 67,
+    "name": "MIDTOWN MONOCHROME TEE",
+    "description": "Black on black puff print logo on heavyweight cotton.",
+    "price": 40.0,
+    "category": "Apparel",
+    "salePercentage": 0,
+    "status": "HOT",
+    "image": "https://source.unsplash.com/800x800/?black,tshirt",
+    "galleryImages": [
+      "https://source.unsplash.com/800x800/?minimal,tshirt",
+      "https://source.unsplash.com/800x800/?dark,tshirt",
+      "https://source.unsplash.com/800x800/?streetwear,black"
+    ]
+  },
+  {
+    "id": 68,
+    "name": "DOCKWALK DUFFEL",
+    "description": "Large canvas bag for gym or day-trips to the Keys.",
+    "price": 110.0,
+    "category": "Accessories",
+    "salePercentage": 0,
+    "status": "NEW",
+    "image": "https://source.unsplash.com/800x800/?duffel,bag",
+    "galleryImages": [
+      "https://source.unsplash.com/800x800/?gym,bag",
+      "https://source.unsplash.com/800x800/?travel,duffel",
+      "https://source.unsplash.com/800x800/?canvas,bag"
+    ]
+  },
+  {
+    "id": 69,
+    "name": "SEA GLASS SLIDES",
+    "description": "Semi-transparent green straps with a molded footbed.",
+    "price": 45.0,
+    "category": "Footwear",
+    "salePercentage": 0,
+    "status": "HOT",
+    "image": "https://source.unsplash.com/800x800/?slides,sandals",
+    "galleryImages": [
+      "https://source.unsplash.com/800x800/?flipflops",
+      "https://source.unsplash.com/800x800/?beach,sandals",
+      "https://source.unsplash.com/800x800/?summer,slides"
+    ]
+  },
+  {
+    "id": 70,
+    "name": "FLAMINGO FLIGHT JOGGERS",
+    "description": "Tapered joggers with reflective sunshine branding.",
+    "price": 75.0,
+    "category": "Apparel",
+    "salePercentage": 10,
+    "status": "SALE",
+    "image": "https://source.unsplash.com/800x800/?joggers",
+    "galleryImages": [
+      "https://source.unsplash.com/800x800/?sweatpants",
+      "https://source.unsplash.com/800x800/?streetwear,pants",
+      "https://source.unsplash.com/800x800/?casual,pants"
+    ]
+  },
+  {
+    "id": 71,
+    "name": "CORAL KEYRING",
+    "description": "Chunky paracord keyring with a matte black carabiner.",
+    "price": 12.0,
+    "category": "Accessories",
+    "salePercentage": 0,
+    "status": "NEW",
+    "image": "https://source.unsplash.com/800x800/?keychain",
+    "galleryImages": [
+      "https://source.unsplash.com/800x800/?keys,accessory",
+      "https://source.unsplash.com/800x800/?metal,keyring",
+      "https://source.unsplash.com/800x800/?minimal,keychain"
+    ]
+  },
+  {
+    "id": 72,
+    "name": "PELICAN PEAK BEANIE",
+    "description": "Neon yellow watch cap for the early bird fishing trips.",
+    "price": 28.0,
+    "category": "Headwear",
+    "salePercentage": 0,
+    "status": "NEW",
+    "image": "https://source.unsplash.com/800x800/?beanie",
+    "galleryImages": [
+      "https://source.unsplash.com/800x800/?knit,beanie",
+      "https://source.unsplash.com/800x800/?yellow,beanie",
+      "https://source.unsplash.com/800x800/?streetwear,beanie"
+    ]
+  },
+  {
+    "id": 73,
+    "name": "AVENTURA ANKLE SOCKS",
+    "description": "Pack of 3. Anti-blister tech for long mall walks.",
+    "price": 22.0,
+    "category": "Accessories",
+    "salePercentage": 0,
+    "status": "HOT",
+    "image": "https://source.unsplash.com/800x800/?socks",
+    "galleryImages": [
+      "https://source.unsplash.com/800x800/?ankle,socks",
+      "https://source.unsplash.com/800x800/?sport,socks",
+      "https://source.unsplash.com/800x800/?cotton,socks"
+    ]
+  },
+  {
+    "id": 74,
+    "name": "PALM GARDEN SHIRT",
+    "description": "Abstract floral print on premium poplin cotton.",
+    "price": 68.0,
+    "category": "Apparel",
+    "salePercentage": 0,
+    "status": "NEW",
+    "image": "https://source.unsplash.com/800x800/?floral,shirt",
+    "galleryImages": [
+      "https://source.unsplash.com/800x800/?pattern,shirt",
+      "https://source.unsplash.com/800x800/?summer,shirt",
+      "https://source.unsplash.com/800x800/?tropical,shirt"
+    ]
+  },
+  {
+    "id": 75,
+    "name": "BRICKELL BELT",
+    "description": "Braided leather belt with a brushed silver buckle.",
+    "price": 45.0,
+    "category": "Accessories",
+    "salePercentage": 0,
+    "status": "NEW",
+    "image": "https://source.unsplash.com/800x800/?leather,belt",
+    "galleryImages": [
+      "https://source.unsplash.com/800x800/?belt,buckle",
+      "https://source.unsplash.com/800x800/?fashion,belt",
+      "https://source.unsplash.com/800x800/?accessory,belt"
+    ]
+  },
+  {
+    "id": 76,
+    "name": "OCEAN DRIVE WINDBREAKER",
+    "description": "Ultra-lightweight ripstop with a hidden hood. Neon trim accents.",
+    "price": 95.0,
+    "category": "Apparel",
+    "salePercentage": 0,
+    "status": "NEW",
+    "image": "https://source.unsplash.com/800x800/?windbreaker",
+    "galleryImages": [
+      "https://source.unsplash.com/800x800/?jacket,lightweight",
+      "https://source.unsplash.com/800x800/?rain,jacket",
+      "https://source.unsplash.com/800x800/?streetwear,jacket"
+    ]
+  },
+  {
+    "id": 77,
+    "name": "LUMMUS LEATHER SLIDES",
+    "description": "Full-grain leather with a cushioned footbed for upscale beach lounging.",
+    "price": 85.0,
+    "category": "Footwear",
+    "salePercentage": 10,
+    "status": "SALE",
+    "image": "https://source.unsplash.com/800x800/?leather,sandals",
+    "galleryImages": [
+      "https://source.unsplash.com/800x800/?slides",
+      "https://source.unsplash.com/800x800/?summer,sandals",
+      "https://source.unsplash.com/800x800/?beach,footwear"
+    ]
+  },
+  {
+    "id": 78,
+    "name": "SKYLINE SNAPBACK",
+    "description": "Classic 6-panel with high-density embroidery of the 305 skyline.",
+    "price": 32.0,
+    "category": "Headwear",
+    "salePercentage": 0,
+    "status": "HOT",
+    "image": "https://source.unsplash.com/800x800/?snapback",
+    "galleryImages": [
+      "https://source.unsplash.com/800x800/?cap",
+      "https://source.unsplash.com/800x800/?streetwear,cap",
+      "https://source.unsplash.com/800x800/?hat,fashion"
+    ]
+  },
+  {
+    "id": 79,
+    "name": "NEON NIGHTS DUFFEL",
+    "description": "Reflective material that glows under headlights. Perfect for the night gym.",
+    "price": 120.0,
+    "category": "Accessories",
+    "salePercentage": 0,
+    "status": "NEW",
+    "image": "https://source.unsplash.com/800x800/?duffel,bag",
+    "galleryImages": [
+      "https://source.unsplash.com/800x800/?gym,bag",
+      "https://source.unsplash.com/800x800/?travel,bag",
+      "https://source.unsplash.com/800x800/?sports,bag"
+    ]
+  },
+  {
+    "id": 80,
+    "name": "CORAL GABLES LINEN PANTS",
+    "description": "Wide-leg linen pants. Keeps you breezy in 90% humidity.",
+    "price": 88.0,
+    "category": "Apparel",
+    "salePercentage": 15,
+    "status": "SALE",
+    "image": "https://source.unsplash.com/800x800/?linen,pants",
+    "galleryImages": [
+      "https://source.unsplash.com/800x800/?wide,pants",
+      "https://source.unsplash.com/800x800/?summer,pants",
+      "https://source.unsplash.com/800x800/?casual,pants"
+    ]
+  },
+  {
+    "id": 81,
+    "name": "TURQUOISE TENNIS SKIRT",
+    "description": "Performance pleats with built-in compression shorts and ball pocket.",
+    "price": 55.0,
+    "category": "Apparel",
+    "salePercentage": 0,
+    "status": "HOT",
+    "image": "https://source.unsplash.com/800x800/?tennis,skirt",
+    "galleryImages": [
+      "https://source.unsplash.com/800x800/?sport,skirt",
+      "https://source.unsplash.com/800x800/?athletic,skirt",
+      "https://source.unsplash.com/800x800/?fitness,skirt"
+    ]
+  },
+  {
+    "id": 82,
+    "name": "KEY LARGO KICKS",
+    "description": "Retro runner silhouette with suede and mesh overlays.",
+    "price": 130.0,
+    "category": "Footwear",
+    "salePercentage": 0,
+    "status": "NEW",
+    "image": "https://source.unsplash.com/800x800/?running,shoes",
+    "galleryImages": [
+      "https://source.unsplash.com/800x800/?retro,sneakers",
+      "https://source.unsplash.com/800x800/?mesh,sneakers",
+      "https://source.unsplash.com/800x800/?sport,sneakers"
+    ]
+  },
+  {
+    "id": 83,
+    "name": "VICE CITY VISOR",
+    "description": "Tinted PVC visor with an adjustable elastic 'Miami' band.",
+    "price": 22.0,
+    "category": "Headwear",
+    "salePercentage": 0,
+    "status": "HOT",
+    "image": "https://source.unsplash.com/800x800/?visor",
+    "galleryImages": [
+      "https://source.unsplash.com/800x800/?sun,visor",
+      "https://source.unsplash.com/800x800/?hat,visor",
+      "https://source.unsplash.com/800x800/?fashion,visor"
+    ]
+  },
+  {
+    "id": 84,
+    "name": "MANGROVE MESH TEE",
+    "description": "Oversized fit with drop shoulders and a breathable athletic mesh weave.",
+    "price": 42.0,
+    "category": "Apparel",
+    "salePercentage": 10,
+    "status": "SALE",
+    "image": "https://source.unsplash.com/800x800/?mesh,tshirt",
+    "galleryImages": [
+      "https://source.unsplash.com/800x800/?athletic,tshirt",
+      "https://source.unsplash.com/800x800/?sportswear,tshirt",
+      "https://source.unsplash.com/800x800/?gym,tshirt"
+    ]
+  },
+  {
+    "id": 85,
+    "name": "ATLANTIC ANKLET SET",
+    "description": "Set of 3 braided cords with real seashell and gold-dipped charms.",
+    "price": 18.0,
+    "category": "Accessories",
+    "salePercentage": 0,
+    "status": "NEW",
+    "image": "https://source.unsplash.com/800x800/?anklet",
+    "galleryImages": [
+      "https://source.unsplash.com/800x800/?bracelet",
+      "https://source.unsplash.com/800x800/?jewelry",
+      "https://source.unsplash.com/800x800/?beach,jewelry"
+    ]
+  },
+  {
+    "id": 86,
+    "name": "WYNWOOD WEDGE",
+    "description": "Espadrille wedge with a vibrant graffiti-printed silk ankle tie.",
+    "price": 115.0,
+    "category": "Footwear",
+    "salePercentage": 20,
+    "status": "SALE",
+    "image": "https://source.unsplash.com/800x800/?wedge,heels",
+    "galleryImages": [
+      "https://source.unsplash.com/800x800/?espadrille",
+      "https://source.unsplash.com/800x800/?heels",
+      "https://source.unsplash.com/800x800/?summer,heels"
+    ]
+  },
+  {
+    "id": 87,
+    "name": "SUNSET STRIPE POLO",
+    "description": "Vertical gradient stripes on a soft pique cotton frame.",
+    "price": 62.0,
+    "category": "Apparel",
+    "salePercentage": 0,
+    "status": "NEW",
+    "image": "https://source.unsplash.com/800x800/?striped,polo",
+    "galleryImages": [
+      "https://source.unsplash.com/800x800/?polo,shirt",
+      "https://source.unsplash.com/800x800/?casual,polo",
+      "https://source.unsplash.com/800x800/?fashion,polo"
+    ]
+  },
+  {
+    "id": 88,
+    "name": "SOBE SURF BOARDSHORTS",
+    "description": "Dolphin-hem boardshorts with a vintage 70s surf aesthetic.",
+    "price": 52.0,
+    "category": "Apparel",
+    "salePercentage": 0,
+    "status": "HOT",
+    "image": "https://source.unsplash.com/800x800/?boardshorts",
+    "galleryImages": [
+      "https://source.unsplash.com/800x800/?surf,shorts",
+      "https://source.unsplash.com/800x800/?beach,shorts",
+      "https://source.unsplash.com/800x800/?summer,shorts"
+    ]
+  },
+  {
+    "id": 89,
+    "name": "MAGIC CITY MASK",
+    "description": "Breathable silk-blend face cover with adjustable ear loops.",
+    "price": 15.0,
+    "category": "Accessories",
+    "salePercentage": 50,
+    "status": "SALE",
+    "image": "https://source.unsplash.com/800x800/?face,mask",
+    "galleryImages": [
+      "https://source.unsplash.com/800x800/?fabric,mask",
+      "https://source.unsplash.com/800x800/?protective,mask",
+      "https://source.unsplash.com/800x800/?fashion,mask"
+    ]
+  },
+  {
+    "id": 90,
+    "name": "DOWNTOWN DUSTER",
+    "description": "Sheer floor-length cardigan for the ultimate poolside dramatic entrance.",
+    "price": 110.0,
+    "category": "Apparel",
+    "salePercentage": 0,
+    "status": "NEW",
+    "image": "https://source.unsplash.com/800x800/?long,cardigan",
+    "galleryImages": [
+      "https://source.unsplash.com/800x800/?sheer,cardigan",
+      "https://source.unsplash.com/800x800/?fashion,cardigan",
+      "https://source.unsplash.com/800x800/?summer,cardigan"
+    ]
+  },
+  {
+    "id": 91,
+    "name": "ART DECO WATCH",
+    "description": "Brushed gold square face with a turquoise leather strap.",
+    "price": 185.0,
+    "category": "Accessories",
+    "salePercentage": 0,
+    "status": "HOT",
+    "image": "https://source.unsplash.com/800x800/?luxury,watch",
+    "galleryImages": [
+      "https://source.unsplash.com/800x800/?gold,watch",
+      "https://source.unsplash.com/800x800/?wristwatch,style",
+      "https://source.unsplash.com/800x800/?minimal,watch"
+    ]
+  },
+  {
+    "id": 92,
+    "name": "CORAL CLIFF COAT",
+    "description": "Water-resistant trench coat in a bold tropical coral pink.",
+    "price": 160.0,
+    "category": "Apparel",
+    "salePercentage": 30,
+    "status": "SALE",
+    "image": "https://source.unsplash.com/800x800/?trenchcoat,fashion",
+    "galleryImages": [
+      "https://source.unsplash.com/800x800/?coat,style",
+      "https://source.unsplash.com/800x800/?raincoat,fashion",
+      "https://source.unsplash.com/800x800/?outerwear,outfit"
+    ]
+  },
+  {
+    "id": 93,
+    "name": "BREEZY BEANIE",
+    "description": "Open-weave cotton beanie designed for summer aesthetics, not heat.",
+    "price": 28.0,
+    "category": "Headwear",
+    "salePercentage": 0,
+    "status": "NEW",
+    "image": "https://source.unsplash.com/800x800/?beanie,hat",
+    "galleryImages": [
+      "https://source.unsplash.com/800x800/?summer,beanie",
+      "https://source.unsplash.com/800x800/?hat,style",
+      "https://source.unsplash.com/800x800/?streetwear,hat"
+    ]
+  },
+  {
+    "id": 94,
+    "name": "OCEAN FRONT OXFORDS",
+    "description": "Hybrid oxford with a sneaker sole. Perfect for Art Basel.",
+    "price": 145.0,
+    "category": "Footwear",
+    "salePercentage": 0,
+    "status": "NEW",
+    "image": "https://source.unsplash.com/800x800/?oxford,shoes",
+    "galleryImages": [
+      "https://source.unsplash.com/800x800/?dress-shoes",
+      "https://source.unsplash.com/800x800/?leather,shoes",
+      "https://source.unsplash.com/800x800/?formal,footwear"
+    ]
+  },
+  {
+    "id": 95,
+    "name": "SUNLIGHT SERUM TEE",
+    "description": "UV-reactive ink that changes color when you step into the sun.",
+    "price": 48.0,
+    "category": "Apparel",
+    "salePercentage": 0,
+    "status": "HOT",
+    "image": "https://source.unsplash.com/800x800/?tshirt,fashion",
+    "galleryImages": [
+      "https://source.unsplash.com/800x800/?graphic,tee",
+      "https://source.unsplash.com/800x800/?streetwear,tshirt",
+      "https://source.unsplash.com/800x800/?summer,tshirt"
+    ]
+  },
+  {
+    "id": 96,
+    "name": "BRICKELL BRIEFCASE",
+    "description": "Slim leather carry-all with a signature sun-orange lining.",
+    "price": 210.0,
+    "category": "Accessories",
+    "salePercentage": 0,
+    "status": "NEW",
+    "image": "https://source.unsplash.com/800x800/?briefcase,leather",
+    "galleryImages": [
+      "https://source.unsplash.com/800x800/?business,bag",
+      "https://source.unsplash.com/800x800/?leather,bag",
+      "https://source.unsplash.com/800x800/?office,briefcase"
+    ]
+  },
+  {
+    "id": 97,
+    "name": "STARDUST SANDALS",
+    "description": "Glitter-flecked straps that sparkle under the disco ball.",
+    "price": 65.0,
+    "category": "Footwear",
+    "salePercentage": 25,
+    "status": "SALE",
+    "image": "https://source.unsplash.com/800x800/?sandals,fashion",
+    "galleryImages": [
+      "https://source.unsplash.com/800x800/?summer,sandals",
+      "https://source.unsplash.com/800x800/?beach,footwear",
+      "https://source.unsplash.com/800x800/?flipflops,style"
+    ]
+  },
+  {
+    "id": 98,
+    "name": "COCONUT COVER-UP",
+    "description": "Oversized white button-up made from ultra-soft bamboo fabric.",
+    "price": 72.0,
+    "category": "Apparel",
+    "salePercentage": 0,
+    "status": "NEW",
+    "image": "https://source.unsplash.com/800x800/?white,shirt",
+    "galleryImages": [
+      "https://source.unsplash.com/800x800/?buttonup,shirt",
+      "https://source.unsplash.com/800x800/?linen,shirt",
+      "https://source.unsplash.com/800x800/?beachwear,shirt"
+    ]
+  },
+  {
+    "id": 99,
+    "name": "MARINA MONEY CLIP",
+    "description": "Brushed titanium clip with an engraved palm leaf.",
+    "price": 28.0,
+    "category": "Accessories",
+    "salePercentage": 0,
+    "status": "HOT",
+    "image": "https://source.unsplash.com/800x800/?money,clip",
+    "galleryImages": [
+      "https://source.unsplash.com/800x800/?wallet,money",
+      "https://source.unsplash.com/800x800/?cash,accessories",
+      "https://source.unsplash.com/800x800/?minimal,accessory"
+    ]
+  },
+  {
+    "id": 100,
+    "name": "SUNSHINE SIGNATURE HOODIE",
+    "description": "The final piece. Heavyweight cream fleece with gold foil branding.",
+    "price": 90.0,
+    "category": "Apparel",
+    "salePercentage": 0,
+    "status": "NEW",
+    "image": "https://source.unsplash.com/800x800/?hoodie,fashion",
+    "galleryImages": [
+      "https://source.unsplash.com/800x800/?hoodie,streetwear",
+      "https://source.unsplash.com/800x800/?sweatshirt,style",
+      "https://source.unsplash.com/800x800/?casual,hoodie"
+    ]
+  }
+]

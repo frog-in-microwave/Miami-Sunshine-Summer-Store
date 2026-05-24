@@ -1,0 +1,150 @@
+.vibe-footer {
+  background: var(--dark-ink);
+  color: var(--cream);
+  padding-bottom: 60px;
+  margin-top: 100px;
+  border-top: 8px solid var(--sun-gold);
+  width: 100%;
+}
+
+/* --- ANIMATED TOP STRIP --- */
+.footer-top-strip {
+  background: var(--sun-orange);
+  color: white;
+  padding: 15px 0;
+  border-bottom: 4px solid var(--dark-ink);
+  overflow: hidden;
+  display: flex;
+}
+
+.marquee-content {
+  display: flex;
+  white-space: nowrap;
+  animation: marquee 20s linear infinite;
+}
+
+.marquee-content span {
+  font-size: 1.2rem;
+  font-weight: 900;
+  padding-right: 20px;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* --- GRID LAYOUT --- */
+.footer-container {
+  max-width: 1300px;
+  margin: 60px auto 0;
+  display: grid;
+  grid-template-columns: 1.5fr 2fr 1fr;
+  padding: 0 40px;
+  gap: 40px;
+}
+
+.footer-brand h2 {
+  font-size: 4rem;
+  line-height: 0.8;
+  margin-bottom: 20px;
+  letter-spacing: -2px;
+}
+
+.footer-copy {
+  font-size: 0.8rem;
+  opacity: 0.6;
+  letter-spacing: 1px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.link-group h4 {
+  color: var(--sun-gold);
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+
+.link-group a {
+  display: block;
+  color: var(--cream);
+  margin-bottom: 12px;
+  font-size: 0.9rem;
+  opacity: 0.7;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.link-group a:hover {
+  opacity: 1;
+  color: var(--sun-orange);
+  transform: translateX(5px);
+}
+
+.footer-social {
+  display: flex;
+  gap: 15px;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.social-badge {
+  width: 50px;
+  height: 50px;
+  border: 2px solid var(--cream);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.social-badge:hover {
+  background: var(--sun-gold);
+  color: var(--dark-ink);
+  transform: rotate(10deg) scale(1.1);
+  border-color: var(--sun-gold);
+}
+
+/* --- RESPONSIVE REDESIGN --- */
+@media (max-width: 900px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+    margin-top: 40px;
+    gap: 50px;
+  }
+
+  .footer-brand h2 {
+    font-size: 3rem; /* Scale down the giant text */
+  }
+
+  .footer-links {
+    justify-content: center;
+    gap: 60px; /* Space out the columns on mobile */
+  }
+
+  .footer-social {
+    justify-content: center;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+  }
+}
+
+@media (max-width: 480px) {  
+  .footer-container {
+    padding: 0 16px;
+  }
+  .footer-links {
+    flex-direction: column; /* Stack Shop and Info columns */
+    gap: 40px;
+  }
+  
+  .footer-brand h2 {
+    font-size: 2.5rem;
+  }
+}

@@ -1,0 +1,203 @@
+
+html, body {
+  overflow: visible !important;
+}
+
+/* --- 1. SHOP LAYOUT --- */
+.shop-vibe {
+  padding: 120px 20px 60px;
+  max-width: 1500px;
+  margin: 0 auto;
+  display: grid;
+  /* Defining the column widths clearly */
+  grid-template-columns: 280px 1fr;
+  gap: 40px;
+  background-image: url("https://www.transparenttextures.com/patterns/p6.png");
+  min-height: 100vh;
+  /* CRITICAL: Prevents sidebar from stretching to full height, which allows sticky to work */
+  align-items: start; 
+}
+
+.shop-main {
+  min-width: 0;
+  overflow: visible;
+}
+
+/* --- 2. SIDEBAR (STOP BEFORE FOOTER FIX) --- */
+.shop-sidebar {
+  background: var(--sun-gold);
+  border: 4px solid var(--dark-ink);
+  padding: 30px;
+  box-shadow: 10px 10px 0px var(--dark-ink);
+  transform: rotate(-1deg);
+  z-index: 50;
+  
+  /* THE STICKY FIX: It will stay fixed while scrolling, but stop at the end of the .shop-vibe container */
+  position: sticky;
+  top: 120px; 
+  
+  /* Ensuring sidebar content is scrollable if the categories list gets too long */
+  max-height: calc(100vh - 160px);
+  overflow-y: auto;
+}
+
+.sidebar-sticker {
+  background: var(--dark-ink);
+  color: white;
+  display: inline-block;
+  padding: 5px 15px;
+  font-size: 0.9rem;
+  margin-bottom: 30px;
+  transform: rotate(3deg);
+  border: 2px solid white;
+}
+
+.sidebar-toggle {
+  display: none;
+}
+
+.sidebar-body.hidden {
+  display: none;
+}
+
+.category-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.cat-btn {
+  background: none;
+  border: none;
+  text-align: left;
+  font-size: 1.2rem;
+  color: var(--dark-ink);
+  cursor: pointer;
+  padding: 5px 0;
+  transition: all 0.2s ease;
+  border-bottom: 2px solid transparent;
+}
+
+.cat-btn.active {
+  color: var(--sun-orange);
+  border-bottom: 2px solid var(--dark-ink);
+  transform: translateX(5px);
+}
+
+.sidebar-info {
+  margin-top: 50px;
+  padding-top: 20px;
+  border-top: 2px dashed var(--dark-ink);
+  font-size: 0.8rem;
+  line-height: 1.8;
+}
+
+/* --- 3. MAIN HEADER & SEARCH --- */
+.shop-header {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 40px;
+  border-bottom: 5px solid var(--dark-ink);
+  padding-bottom: 25px;
+}
+
+.shop-header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.shop-header h1 {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  line-height: 0.9;
+}
+
+.shop-search-input {
+  width: 100%;
+  padding: 15px 20px;
+  border: 4px solid var(--dark-ink);
+  background: #ffffff;
+  font-size: 1rem;
+  box-shadow: 6px 6px 0px var(--dark-ink);
+}
+
+.results-count {
+  background: var(--sun-orange);
+  color: white;
+  padding: 8px 15px;
+  border: 3px solid var(--dark-ink);
+  box-shadow: 4px 4px 0px var(--dark-ink);
+  font-size: 0.9rem;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+
+.no-results {
+  /* This ensures it centers across all columns of the product grid */
+  grid-column: 1 / -1;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 60px 0;
+  color: var(--dark-ink);
+  /* Ensuring it uses your brand font as defined in the JSX class */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+/* --- 4. PRODUCT GRID --- */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 25px;
+  min-width: 0;
+}
+
+/* --- 5. BREAKPOINTS --- */
+@media (max-width: 900px) {
+  .shop-vibe {
+    grid-template-columns: 1fr; /* Reset to single column for phone */
+    padding: 100px 15px 60px;
+  }
+
+  .shop-sidebar {
+    position: relative; /* Removes sticky/fixed behavior on mobile */
+    top: 0;
+    max-height: none;
+    overflow-y: visible;
+    transform: none;
+    padding: 0;
+    box-shadow: 4px 4px 0px var(--dark-ink);
+    margin-bottom: 20px;
+  }
+
+  .sidebar-toggle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: var(--dark-ink);
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+  .sidebar-body {
+    padding: 20px;
+    border-top: 2px dashed var(--dark-ink);
+  }
+
+  .sidebar-body.hidden {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .product-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+}
