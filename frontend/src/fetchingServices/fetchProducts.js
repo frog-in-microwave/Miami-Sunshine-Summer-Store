@@ -11,7 +11,7 @@ export const fetchProducts = createAsyncThunk(
     async ({page, limit, search = "", category = ""}) => {
     try{
       const response = await fetch(
-        `${import.meta.env.VITE_API_URL}/get-products?page=${page}&limit=${limit}&search=${search}&category=${category}`,
+        `${import.meta.env.VITE_API_URL}/api/get-products?page=${page}&limit=${limit}&search=${search}&category=${category}`,
         {
           method: "GET",
           headers: {

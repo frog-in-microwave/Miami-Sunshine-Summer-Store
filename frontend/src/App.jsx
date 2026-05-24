@@ -38,7 +38,7 @@ function App() {
     if (!token) {
       return;
     }
-    const response = await fetch(`${import.meta.env.VITE_API_URL}/auth/me`, {
+    const response = await fetch(`${import.meta.env.VITE_API_URL}/api/auth/me`, {
       method: "GET",
       headers: {
         "Content-Type": "application/json",

@@ -46,7 +46,7 @@ const Account = () => {
   };
 
   const updateUserInDatabase = async (changedUser, token) => {
-    const response = await fetch(`${import.meta.env.VITE_API_URL}/auth/update-user`, {
+    const response = await fetch(`${import.meta.env.VITE_API_URL}/api/auth/update-user`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",

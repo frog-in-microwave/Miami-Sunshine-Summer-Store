@@ -6,7 +6,7 @@ const sendEmail = async (name, email, message, honeyPot) => {
     try {
 
 
-        const response = await fetch(`${import.meta.env.VITE_API_URL}/contact`, {
+        const response = await fetch(`${import.meta.env.VITE_API_URL}/api/contact`, {
             method: "POST",
             headers: {
             "Content-Type": "application/json",

@@ -13,14 +13,17 @@ const handleCardPayment = async (cartItems, setLoading) => {
         return;
     }
   try {
-    const response = await fetch(`${import.meta.env.VITE_API_URL}/checkout`, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        authorization: "Bearer " + localStorage.getItem("token"),
+    const response = await fetch(
+      `${import.meta.env.VITE_API_URL}/api/checkout`,
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          authorization: "Bearer " + localStorage.getItem("token"),
+        },
+        body: JSON.stringify({ products: cartItems }),
       },
-      body: JSON.stringify({ products: cartItems }),
-    });
+    );
 
     if (!response.ok) {
       console.log("error with the response. ", response.message);
