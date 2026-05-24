@@ -3,6 +3,11 @@
   box-sizing: border-box;
 }
 
+/* Better mobile touch handling */
+button {
+  touch-action: manipulation;
+}
+
 .checkout-vibe {
   padding: clamp(100px, 12vh, 160px) 15px 60px;
   background-color: var(--cream);
@@ -11,7 +16,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  overflow-x: hidden; /* Prevents children from pushing the page wide */
+  overflow-x: hidden;
 }
 
 .checkout-container {
@@ -33,7 +38,7 @@
   line-height: 0.95;
   text-transform: uppercase;
   color: var(--dark-ink);
-  word-break: break-word; 
+  word-break: break-word;
   overflow-wrap: break-word;
 }
 
@@ -55,7 +60,7 @@
 .barcode {
   font-family: monospace;
   opacity: 0.5;
-  white-space: nowrap; 
+  white-space: nowrap;
 }
 
 /* --- 2. GRID & FORM BLOCKS --- */
@@ -66,6 +71,12 @@
   width: 100%;
 }
 
+/* Important: keep content above sticky sidebar */
+.checkout-form-section {
+  position: relative;
+  z-index: 2;
+}
+
 .form-block {
   background: white;
   border: 4px solid var(--dark-ink);
@@ -73,6 +84,7 @@
   margin-bottom: 30px;
   box-shadow: 10px 10px 0px var(--dark-ink);
   width: 100%;
+  position: relative;
 }
 
 .section-title {
@@ -123,9 +135,13 @@
   cursor: pointer;
   box-shadow: 6px 6px 0px var(--dark-ink);
   transition: 0.1s;
+  -webkit-tap-highlight-color: transparent;
 }
 
-.card-btn { background: var(--dark-ink); color: white; }
+.card-btn {
+  background: var(--dark-ink);
+  color: white;
+}
 
 .pay-btn:active {
   transform: translate(2px, 2px);
@@ -159,25 +175,35 @@
   animation: slide 1.2s infinite ease-in-out;
 }
 
-.pulse { 
-  animation: pulse 0.8s infinite alternate; 
+.pulse {
+  animation: pulse 0.8s infinite alternate;
   font-size: clamp(0.8rem, 2vw, 1rem);
 }
 
-.loader-subtext { 
-  font-size: 0.65rem; 
-  opacity: 0.7; 
-  margin-top: 10px; 
+.loader-subtext {
+  font-size: 0.65rem;
+  opacity: 0.7;
+  margin-top: 10px;
 }
 
 @keyframes slide {
-  0% { left: -35%; }
-  100% { left: 110%; }
+  0% {
+    left: -35%;
+  }
+
+  100% {
+    left: 110%;
+  }
 }
 
 @keyframes pulse {
-  from { opacity: 1; }
-  to { opacity: 0.4; }
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0.4;
+  }
 }
 
 /* --- 5. SUMMARY SIDEBAR --- */
@@ -185,6 +211,16 @@
   position: sticky;
   top: 140px;
   width: 100%;
+
+  /* Important mobile fix */
+  z-index: 1;
+
+  /* Prevent weird mobile layering bugs */
+  transform: translateZ(0);
+}
+
+.summary-sticker {
+  margin-bottom: 10px;
 }
 
 .summary-inner {
@@ -192,6 +228,32 @@
   border: 4px solid var(--dark-ink);
   padding: 30px;
   box-shadow: 12px 12px 0px var(--dark-ink);
+
+  /* Helps mobile touch handling */
+  position: relative;
+  z-index: 1;
+}
+
+.checkout-item-list {
+  margin: 20px 0;
+}
+
+.checkout-mini-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 12px;
+  font-size: 0.95rem;
+}
+
+.summary-totals {
+  margin-top: 20px;
+}
+
+.total-line {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
 }
 
 .total-final {
@@ -206,14 +268,34 @@
 
 /* --- 6. BREAKPOINTS --- */
 @media (max-width: 950px) {
-  .checkout-grid { grid-template-columns: 1fr; }
-  .checkout-summary { position: static; order: -1; margin-bottom: 30px; }
+  .checkout-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .checkout-summary {
+    position: static;
+    order: -1;
+    margin-bottom: 30px;
+
+    /* Important mobile fix */
+    z-index: 0;
+    transform: none;
+  }
+
+  .checkout-form-section {
+    z-index: 2;
+  }
 }
 
 @media (max-width: 600px) {
-  .checkout-vibe { padding-top: 100px; }
-  .checkout-header h1 { font-size: 13vw; }
-  
+  .checkout-vibe {
+    padding-top: 100px;
+  }
+
+  .checkout-header h1 {
+    font-size: 13vw;
+  }
+
   .header-meta {
     flex-direction: column;
     align-items: flex-start;
@@ -224,10 +306,29 @@
     padding: 20px;
     box-shadow: 6px 6px 0px var(--dark-ink);
   }
+
+  .summary-inner {
+    padding: 20px;
+    box-shadow: 5px 5px 0px var(--dark-ink);
+  }
+
+  .pay-btn {
+    padding: 18px;
+  }
 }
 
 /* Ultra-thin screen protection */
 @media (max-width: 350px) {
-  .checkout-header h1 { font-size: 2.5rem; }
-  .pay-btn { padding: 15px; font-size: 0.8rem; }
+  .checkout-header h1 {
+    font-size: 2.5rem;
+  }
+
+  .pay-btn {
+    padding: 15px;
+    font-size: 0.8rem;
+  }
+
+  .summary-inner {
+    padding: 15px;
+  }
 }
