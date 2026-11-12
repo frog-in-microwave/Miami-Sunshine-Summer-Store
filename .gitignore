@@ -33,3 +33,5 @@ Thumbs.db
 # misc
 coverage/
 .cache/
+# Local Netlify folder
+.netlify

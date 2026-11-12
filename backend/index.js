@@ -18,7 +18,24 @@ const app = express();
 
 
 // using cors to allow cross-origin requests from the frontend
-app.use(cors({ origin: `${process.env.FRONTEND_URL}`}));
+const allowedOrigins = [
+    process.env.FRONTEND_URL ? process.env.FRONTEND_URL.replace(/\/$/, "") : null,
+    "https://miami-sunshine-summer-store.netlify.app",
+    "http://localhost:5173",
+].filter(Boolean);
+
+app.use(cors({
+    origin: (origin, callback) => {
+        // allow server-to-server or tools with no origin
+        if (!origin) return callback(null, true);
+        const normalizedOrigin = origin.replace(/\/$/, "");
+        if (allowedOrigins.includes(normalizedOrigin)) {
+            return callback(null, true);
+        }
+        return callback(new Error("Not allowed by CORS"));
+    },
+    credentials: true,
+}));
 
 
 
