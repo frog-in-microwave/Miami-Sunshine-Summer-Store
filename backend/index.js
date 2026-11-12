@@ -5,6 +5,7 @@ import authRoutes from "./routes/authroutes.js";
 import productRoutes from "./routes/productRoutes.js";
 import contactRoutes from "./routes/contactRoutes.js";
 import checkoutRoutes from "./routes/checkoutRoutes.js";
+import healthRoutes from "./routes/healthRoutes.js";
 import cors from "cors"
 
 
@@ -30,6 +31,8 @@ app.use("/api/auth", authRoutes);
 app.use("/api", productRoutes);
 app.use("/api", contactRoutes);
 app.use("/api", checkoutRoutes);
+app.use("/api", healthRoutes);
+app.use("/", healthRoutes);
 
 
 // backend port that will be used to listen to the requests from the frontend, it is specified in the .env file, if not specified, it will default to 5000  
