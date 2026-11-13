@@ -272,12 +272,14 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 650px) {
   .related-grid {
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     gap: 12px;
   }
+}
 
+@media (max-width: 480px) {
   .info-title {
     font-size: 1.8rem;
   }
@@ -288,5 +290,11 @@
 
   .add-to-cart-btn {
     padding: 14px;
+  }
+}
+
+@media (max-width: 380px) {
+  .related-grid {
+    gap: 8px;
   }
 }

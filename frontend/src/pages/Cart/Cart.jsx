@@ -69,7 +69,7 @@ const Cart = () => {
     (acc, item) => acc + item.price * item.qty,
     0,
   );
-  const shipping = subtotal > 100 ? 0 : 15;
+  const shipping = cartItems.length === 0 ? 0 : subtotal > 100 ? 0 : 15;
   const total = subtotal + shipping;
 
   return (
@@ -121,42 +121,50 @@ const Cart = () => {
               ))
             ) : (
               <div className="empty-cart brand-font">
-                MANIFEST IS EMPTY. GO GET SOME GEAR.
+                <p>MANIFEST IS EMPTY. GO GET SOME GEAR.</p>
+                <button
+                  onClick={() => navigate("/shop")}
+                  className="shop-now-btn brand-font"
+                >
+                  EXPLORE SHOP
+                </button>
               </div>
             )}
           </section>
 
           {/* RIGHT: SUMMARY STICKER */}
-          <aside className="cart-summary">
-            <div className="summary-card">
-              <h2 className="brand-font">SUMMARY</h2>
-              <div className="summary-line">
-                <span>SUBTOTAL</span>
-                <span>${subtotal}</span>
+          {cartItems.length > 0 && (
+            <aside className="cart-summary">
+              <div className="summary-card">
+                <h2 className="brand-font">SUMMARY</h2>
+                <div className="summary-line">
+                  <span>SUBTOTAL</span>
+                  <span>${subtotal}</span>
+                </div>
+                <div className="summary-line">
+                  <span>SHIPPING</span>
+                  <span>{shipping === 0 ? "FREE" : `$${shipping}`}</span>
+                </div>
+                {shipping > 0 && (
+                  <p className="shipping-promo">
+                    ADD ${100 - subtotal} MORE FOR FREE SHIPPING
+                  </p>
+                )}
+                <div className="summary-total brand-font">
+                  <span>TOTAL</span>
+                  <span>${total}</span>
+                </div>
+                <button onClick={goToCheckout} className="checkout-btn brand-font">
+                  PROCEED TO CHECKOUT
+                </button>
+                {/* CLEAR CART BUTTON */}
+                <button onClick={() => setCartItems([])} className="clear-cart-btn brand-font">
+                  CLEAR MANIFEST
+                </button>
+                <div className="secure-badge">SSL SECURE PORTAL // MIAMI, FL</div>
               </div>
-              <div className="summary-line">
-                <span>SHIPPING</span>
-                <span>{shipping === 0 ? "FREE" : `$${shipping}`}</span>
-              </div>
-              {shipping > 0 && (
-                <p className="shipping-promo">
-                  ADD ${100 - subtotal} MORE FOR FREE SHIPPING
-                </p>
-              )}
-              <div className="summary-total brand-font">
-                <span>TOTAL</span>
-                <span>${total}</span>
-              </div>
-              <button onClick={goToCheckout} className="checkout-btn brand-font">
-                PROCEED TO CHECKOUT
-              </button>
-              {/* CLEAR CART BUTTON ADDED HERE */}
-              <button onClick={() => setCartItems([])} className="clear-cart-btn brand-font">
-                CLEAR MANIFEST
-              </button>
-              <div className="secure-badge">SSL SECURE PORTAL // MIAMI, FL</div>
-            </div>
-          </aside>
+            </aside>
+          )}
         </div>
       </div>
     </div>

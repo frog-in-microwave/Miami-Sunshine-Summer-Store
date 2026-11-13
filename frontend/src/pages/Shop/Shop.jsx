@@ -28,6 +28,14 @@ const Shop = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 900); // for phones
   const [isFilterOpen, setIsFilterOpen] = useState(false); // for mobile filter toggle
 
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 900);
+    };
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
 
 
 
