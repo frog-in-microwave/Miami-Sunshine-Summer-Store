@@ -60,7 +60,7 @@ const MONGO_URI = process.env.MONGO_URI;
 
 
 // connecting to the mongoDB database and starting the server
-mongoose.connect(MONGO_URI).then(() => {
+mongoose.connect(MONGO_URI, { dbName: "miamisunshinedatabase" }).then(() => {
     console.log("Connected to MongoDB!!!!!");
 
     // starting to listen on port 5000 after connecting to mongoDB

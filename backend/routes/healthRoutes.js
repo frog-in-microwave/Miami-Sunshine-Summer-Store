@@ -31,6 +31,7 @@ router.get("/health", async (req, res) => {
         const startTime = Date.now();
         await mongoose.connection.db.admin().ping();
         const responseTimeMs = Date.now() - startTime;
+        const productsCount = await mongoose.connection.db.collection("products").countDocuments().catch(() => 0);
 
         return res.status(200).json({
             status: "ok",
@@ -38,6 +39,8 @@ router.get("/health", async (req, res) => {
             timestamp: new Date().toISOString(),
             database: {
                 status: "connected",
+                name: mongoose.connection.name,
+                productsCount,
                 ping: "ok",
                 responseTimeMs,
             },
